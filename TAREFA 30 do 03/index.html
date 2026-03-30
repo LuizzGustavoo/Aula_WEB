@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FlexSite</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <input type="checkbox" id="menu-toggle" hidden>
+  <input type="checkbox" id="tema-toggle" hidden>
+
+  <div class="site-wrapper">
+    <header class="header">
+      <label for="menu-toggle" class="hamburguer">☰</label>
+      <h1>FlexSite</h1>
+      
+      <div class="header-right">
+        <nav class="nav-top">
+          <span>Início</span>
+          <span>Sobre</span>
+          <span>Projetos</span>
+          <span>Contato</span>
+        </nav>
+        
+        <label for="tema-toggle" class="tema-icon">🌓</label>
+      </div>
+    </header>
+
+    <aside class="sidebar">
+      <nav>
+        <a href="#">Início</a>
+        <a href="#">Sobre</a>
+        <a href="#">Projetos</a>
+        <a href="#">Contato</a>
+      </nav>
+    </aside>
+
+    <main class="main">
+      <section class="intro">
+        <h2>Bem-vindo ao FlexSite</h2>
+        <p>Este site agora tem menu escondido e tema escuro com CSS puro 👌</p>
+      </section>
+
+      <section class="cards">
+        <div class="card">Card 1</div>
+        <div class="card">Card 2</div>
+        <div class="card">Card 3</div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2025 FlexSite. Todos os direitos reservados.</p>
+    </footer>
+  </div>
+</body>
+</html>
